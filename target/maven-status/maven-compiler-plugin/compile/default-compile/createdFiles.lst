@@ -1,0 +1,4 @@
+com\example\postgresql\Repository\UsersRepository.class
+com\example\postgresql\resource\UsersResource.class
+com\example\postgresql\model\Users.class
+com\example\postgresql\PostgresqlApplication.class
