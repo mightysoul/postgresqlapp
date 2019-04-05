@@ -1,5 +1,8 @@
 pipeline {
- node("maven") {
+    agent {
+	        label 'maven'
+}
+ stages {
         stage("Checkout") {
           git url: "https://github.com/mightysoul/postgresqlapp.git", branch: "master"
         }
