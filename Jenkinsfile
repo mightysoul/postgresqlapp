@@ -20,7 +20,7 @@ pipeline {
         stage("Verify Build") {
             steps {
                 timeout(time: 20, unit: 'MINUTES') {
-            build job : 'checkbuild' 
+             build job : 'checkbuild' 
           }
             }
         }
