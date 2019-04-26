@@ -15,7 +15,7 @@ pipeline {
         stage("Build Docker Image") {
           steps {
             unstash name:"jar"
-            sh "oc start-build postgresql-docker --from-file=target/TEST.jar -n myproject"
+            sh "oc start-build postgresql-docker --from-file=target/TEST.jar -n kadir"
                }}
         stage("Verify Build") {
             steps {
