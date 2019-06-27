@@ -1,5 +1,5 @@
 FROM openjdk:8
-ADD postgresql-0.0.1-SNAPSHOT.jar postgresql-0.0.1-SNAPSHOT.jar
+ADD TEST.jar TEST.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","postgresql-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","TEST.jar"]
 
